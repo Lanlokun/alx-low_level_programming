@@ -4,6 +4,8 @@
 /* more headers goes there */
 
 /* betty style doc for function main goes there */
+/* main has a variable n that stores a random number then  checks if the value of n is positive, negative or zero */
+
 int main(void)
 {
 	int n;
@@ -13,15 +15,15 @@ int main(void)
 	/* your code goes there */
 	if (n > 0) 
 	{
-		printf("is posiitve");
+		printf("%d\n is posiitve", n);
 	}
 	else if(n < 0 )
 	{
-		printf("is negative");
+		printf("%d\n is negative", n);
 	}
 	else
        	{
-		printf("is zero");
+		printf("%d\n is zero", n);
 	}    
 	return (0);
 }
