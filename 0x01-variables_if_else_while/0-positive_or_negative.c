@@ -1,10 +1,6 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/* more headers goes there */
-
-/* betty style doc for function main goes there */
-/* main has a variable n that stores a random number then  checks if the value of n is positive, negative or zero */
 
 int main(void)
 {
@@ -12,12 +8,11 @@ int main(void)
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	/* your code goes there */
 	if (n > 0)
 	{
 		printf("%d is positive\n", n);
 	}
-	else if(n < 0)
+	else if (n < 0)
 	{
 		printf("%d is negative\n", n);
 	}
