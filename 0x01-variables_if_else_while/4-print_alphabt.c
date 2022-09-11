@@ -9,14 +9,16 @@
 /**
   * main - Print lower alaphabet letters except letter  and e
   *
+  * Return: Always 0.
 */
 
 int main(void)
 {
 	char letter;
-	for(letter = 'a'; letter <= 'z'; letter++)
+
+	for (letter = 'a'; letter <= 'z'; letter++)
 	{
-		while(letter == 'q' || letter == 'e')
+		while (letter == 'q' || letter == 'e')
 		{
 			letter++;
 		}
@@ -25,7 +27,7 @@ int main(void)
 	}
 	putchar('\n');
 
-	return(0);
+	return (0);
 }
 
 
