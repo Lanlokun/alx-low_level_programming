@@ -4,7 +4,7 @@
 */
 
 #include <stdio.h>
-
+#include <ctype.h>
 /**
   * main  - Print letters of the alphabet in lowercase
   *
@@ -14,13 +14,12 @@
 int main(void)
 {
  	char lowerLetter;
-	char upperLetter;
- 	for(lowerLetter = 'a'; lowerLetter <= 'z'; lowerLetter++)
-		putchar(lowerLetter);
 
-	putchar('\n');
-	for(upperLetter = 'A'; upperLetter  <= 'Z'; upperLetter++)
-		putchar(upperLetter);
+ 	for(lowerLetter = 'a'; lowerLetter <= 'z'; lowerLetter++)
+	{
+		putchar(lowerLetter);
+		putchar(toupper(lowerLetter));
+	}
 
 	putchar('\n');
 
