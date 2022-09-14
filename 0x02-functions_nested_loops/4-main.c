@@ -9,9 +9,9 @@
 
 /*
  *
- * isalpha - checks for alphabets
- *
- * Return 0
+ * _isalpha - checks for alphabets
+ * @c: character to check
+ * Return: 1 if lower or uppercase, 0 if not alphabet character
  */
 
 int main(void)
