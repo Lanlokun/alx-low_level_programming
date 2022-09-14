@@ -15,6 +15,11 @@
 int main(void)
 {
 
+/*
+ * main - Prints putchar followed by a new line
+ *
+ */
+
 	_putchar('_');
 	_putchar('p');
 	_putchar('u');
