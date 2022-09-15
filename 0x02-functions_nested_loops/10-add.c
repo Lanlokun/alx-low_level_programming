@@ -1,9 +1,10 @@
 #include "main.h"
 
 /**
- * print_last_digit - checks for alphabets
- * @n: character to check
- * Return: absolute last digit of a number
+ * add - add two integers
+ * @a: two integer arguments
+ * @b: two integer arguments
+ * Return: sum
  *
  */
 
@@ -12,5 +13,5 @@ int add(int a, int b)
 
 	int result = a + b;
 
-	return result;
+	return (result);
 }
