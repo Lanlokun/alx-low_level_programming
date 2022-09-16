@@ -1,14 +1,16 @@
 #include "main.h"
 
 /**
- * _isdigit - checks if value is a digit
- * @c: character  to check
- * Return: 1 if digit, 0 if not digit
+ * mul - multiplies the values of a and
+ * @a: value to multiply
+ * @b: value to multiply
+ * Return: result of multiplying a and b
  *
  */
 int mul(int a, int b)
 {
 	return a * b;
+
 	_putchar('\n');
 
 }
