@@ -6,9 +6,9 @@
 #include "main.h"
 /**
  * _strlen - swaps the values of two integers.
- * @s: variable to count
- * @b: variable to swap
+ * @str: variable to countp
  *
+ * Return the length of @str
  */
 
 int _strlen(char *s)
