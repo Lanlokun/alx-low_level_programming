@@ -3,7 +3,7 @@
  * Auth: Malik K Lanlokun
  */
 
-#include "main.h"
+#include "function_pointers.h"
 #include <stddef.h>
 /** 
  * print_name - Prints a name. 
