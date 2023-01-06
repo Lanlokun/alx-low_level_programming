@@ -78,6 +78,18 @@
 
 </ul>
 
+# 7. $ht['Betty'] = 'Cool'
+
+
+        In PHP, hash tables are ordered. Wait… WAT? How is this even possible?
+
+<ul>
+
+        gcc -Wall -pedantic -Werror -Wextra -std=gnu89 100-main.c 100-sorted_hash_table.c 1-djb2.c 2-key_index.c -o sht
+
+        ./sht
+</ul>
+
         
 
 
