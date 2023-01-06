@@ -14,3 +14,17 @@
         valgrind ./a
 
 </ul>
+
+# 1. djb2
+
+        Write a hash function implementing the djb2 algorithm.
+
+<ul>
+
+        gcc -Wall -pedantic -Werror -Wextra -std=gnu89 1-main.c 1-djb2.c -o b
+        ./b 
+
+</ul>
+        
+
+
