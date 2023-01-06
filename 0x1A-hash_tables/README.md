@@ -41,7 +41,18 @@
 
         Write a function that adds an element to the hash table.
 
+# 4. >>> ht['betty']
 
+        Write a function that retrieves a value associated with a key.
+
+
+<ul>
+
+        gcc -Wall -pedantic -Werror -Wextra -std=gnu89 4-main.c 0-hash_table_create.c 1-djb2.c 2-key_index.c 3-hash_table_set.c 4-hash_table_get.c -o e
+
+        ./e
+
+</ul>
 
 
         
