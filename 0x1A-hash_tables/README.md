@@ -25,6 +25,21 @@
         ./b 
 
 </ul>
+
+# 2. key -> index
+
+        Write a function that gives you the index of a key.
+
+<ul>
+
+    gcc -Wall -pedantic -Werror -Wextra -std=gnu89 2-main.c 1-djb2.c 2-key_index.c -o c
+    ./c
+
+</ul>
+
+
+
+
         
 
 
