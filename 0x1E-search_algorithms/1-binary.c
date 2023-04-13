@@ -1,21 +1,36 @@
-#include <stdio.h>
-#include <stdlib.h>
 #include "search_algos.h"
 
 /**
- * main - Entry point
- *
+ * binary_search - searches for a value in a sorted array of integers
+ * using the Binary search algorithm
+ * @array: input array
+ * @size: size of the array
+ * @value: value to search in
  * Return: Always EXIT_SUCCESS
  */
-int main(void)
-{
-    int array[] = {
-        0, 1, 2, 3, 4, 5, 6, 7, 8, 9
-    };
-    size_t size = sizeof(array) / sizeof(array[0]);
 
-    printf("Found %d at index: %d\n\n", 2, binary_search(array, size, 2));
-    printf("Found %d at index: %d\n\n", 5, binary_search(array, 5, 5));
-    printf("Found %d at index: %d\n", 999, binary_search(array, size, 999));
-    return (EXIT_SUCCESS);
+int binary_search(int *array, size_t size, int value)
+{
+size_t i, j, k, l;
+if (array == NULL)
+    return (-1);
+i = 0;
+j = size - 1;
+while (i <= j)
+{
+printf("Searching in array: ");
+for (k = i; k < j; k++)
+    printf("%d, ", array[k]);
+printf("%d \n", array[k]);
+l = (i + j) / 2;
+if (array[l] == value)
+    return (l);
+else if (array[l] < value)
+    i = l + 1;
+else
+    j = l - 1;
+
+}
+
+return (-1);
 }
